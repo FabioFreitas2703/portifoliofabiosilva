@@ -767,7 +767,17 @@ ul li{
     .intro-text{
         order: 1;
     }
-}   
+}  
+
+@media(max-width: 365px){
+    .social-media a{
+        margin: 1rem 1rem 3rem 0;
+    }
+
+    .text-int{
+        font-size: 1.8rem;
+    }
+}
 
 @media(max-width: 344px){
     .intro-img{
@@ -786,8 +796,7 @@ ul li{
 
     .intro-img{
         position: absolute;
-        bottom: 8rem;
-        
+        bottom: 8rem; 
     
     }
 
