@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio|Fabio Silva</title>
+    <meta name="description" content="Portifólio Fabio Silva desenvolvimento web">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="closemenu">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <a class="logo" href="">Portifolio.</a>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">inicio</a></li>
+                    <li><a href="#sobre">sobre</a></li>
+                    <li><a href="#habilidades">habilidades</a></li>
+                    <li><a href="#projetos">projetos</a></li>
+                    <li><a href="#contatos">contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <p class="text-intro"><span>olá</span>, meu nome é</p>
+                <h2>Fabio Silva</h2>
+                <h3><span class="text-int" id="multiplay"></span></h3>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/fabiosf2014/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/FabioFreitas2703"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/analistafabiosilva/"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/5581993757370" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a class="btn" href="/asset/img/Curriculo moderno para profissional de TI azul (2).pdf"
+                    download="Curriculo Fabio silva">Download CV</a>
+            </div>
+            <div class="home-img">
+                <div class="intro-img">
+                    <img src="/asset/img/photoFabio2.png" alt="Foto do perfil">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="sobre" class="two-bg section">
+        <div class="main-content text-content reavel">
+            <h1>Sobre</h1>
+            <div class="about">
+                <div class="about-img">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="about-text">
+                    <p class="about-content">Olá Meu nome é Fábio Silva sou Formado em análise e desenvolvimento de sistema onde me identifico muito na área de tecnologia e resolução de problemas. Tenho base em lógica de programação, desenvolvimento web e banco de dados, e estou em busca de oportunidades e novos desafios em aprender novas ferramentas e boas práticas. Atualmente, estou focando em aprimora minhas habilidades no front-end. Em criar projetos que unam usabilidade, performance e design responsivo, mas também encaro desafios no back-end.  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="main-bg section hability">
+        <div class="main-content text-content reavel">
+            <h1>Habilidades</h1>
+            <div class=" hability-container">
+
+                <div class="hability-box">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Desenvolvimento web</h4>
+                    <p>Sites, landing page com performace usabilidade interação com o usuário usando suas principais tecnologia html5, css3, javascript.</p>
+
+                </div>
+                <div class="hability-box">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h4>Design criativo</h4>
+                    <p>Responsividade, criatividade em que traga uma sensação de satisfação tanto para o cliente quanto para o usuário.</p>
+
+                </div>
+                <div class="hability-box">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>Codigos limpos </h4>
+                    <p>Programação usando boas práticas de desenvolvimento e resolução de problemas,tudo isso para trazer melhor desempenho.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class=" two-bg section projetos">
+        <div class="main-content text-content reavel">
+            <h1>Projetos</h1>
+            <div class="portifolio-container">
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Hambugueria</h4>
+                        <p>Landing page de hamburgueria, confira lá no github.</p>
+                        <a href="https://github.com/FabioFreitas2703"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Em Breve!</h4>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Em Breve!</h4>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Em Breve!</h4>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Em Breve!</h4>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="portifolio-box">
+                    <img src="/asset/img/background.jpg" alt="imagem futurista">
+                    <div class="portifolio-layer">
+                        <h4>Em Breve!</h4>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="main-bg section contact">
+        <div class="main-content text-content reavel">
+            <h1>Contatos</h1>
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+                <div class="input-box">
+                    <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                    <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" id="number" name="number" placeholder="Seu Telefone" required>
+                    <input type="text" placeholder="Assunto do Email" required>
+                </div>
+                <textarea name="message" id="massage" cols="30" rows="10" placeholder="Sua Mensagem"
+                    required></textarea>
+                <input type="submit" value="Enviar" class="btn">
+
+                <input type="hidden" name="apiKey" value="sf_lm50fmd0k03e6lbkf1aik2n7">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy 2025 por Fabio Silva | Todos os direitos reservados </p>
+        </div>
+        <div class="footer-inconTop">
+            <a href="#intro"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="asset/js/script.js"></script>
+    <script src="asset/js/reveal.js" defer></script>
+    <script src="asset/js/typed.js"></script>
+
+
+</body>
+
+</html>
